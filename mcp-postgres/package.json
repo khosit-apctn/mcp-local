@@ -1,0 +1,25 @@
+{
+  "name": "mcp-postgres",
+  "version": "1.0.0",
+  "description": "Local PostgreSQL Model Context Protocol Server",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "dotenv": "^16.4.5",
+    "pg": "^8.11.5",
+    "pg-format": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/pg": "^8.11.2",
+    "@types/pg-format": "^1.0.2",
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.1"
+  }
+}
